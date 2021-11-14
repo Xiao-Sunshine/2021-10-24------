@@ -4,12 +4,12 @@ for(var i=0;i<provinceList.length;i++){
 }
 function addEle(ele,value){
     var optionStr="";
-    optionStr="<option value="+value+">"+value+"</option>";
+    optionStr="<option  style='height: 10px;'  value="+value+">"+value+"</option>";
     ele.append(optionStr);
 }
 function removeEle(ele){
     ele.find("option").remove();
-    var optionStar="<option value="+"请选择"+">"+"请选择"+"</option>";
+    var optionStar="<option  style='height: 10px;'  value="+"请选择"+">"+"请选择"+"</option>";
     ele.append(optionStar);
 }
 var provinceText,cityText,cityItem;

@@ -997,13 +997,16 @@ html {
   border-radius: 25px;
   text-align: center;
   font-weight: 800;
-  overflow: hidden;
+  overflow: hidden ;
 }
 .organization .organization-form .organization-city option,
 .organization .organization-form .organization-town option,
 .organization .organization-form .organization-province option {
+  font-size: 12px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
   display: inline-block;
-  width: 10px !important;
 }
 .organization .conter-xin {
   top: 365px;

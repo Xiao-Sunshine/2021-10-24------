@@ -258,7 +258,7 @@ $(function () {
         $('.portrayal').fadeOut();
         $('.organization').fadeIn();
     })
-
+    
     // GL版命名空间为BMapGL
     // 按住鼠标右键，修改倾斜角和角度
     var map = new BMapGL.Map("allmap");    // 创建Map实例
@@ -295,6 +295,11 @@ $(function () {
     $('.organization .rule-transmit').click(function(){
         $('.organization').fadeOut();
         $('.portrayal').fadeIn();
+    })
+    // 下
+    $('.item3').click(function(){
+        $('.item3').fadeOut();
+
     })
 })
 
